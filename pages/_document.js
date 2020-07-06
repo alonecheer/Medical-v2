@@ -16,6 +16,7 @@ render() {
           <Head >
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/antd/3.22.0/antd.min.css' />
+          
           {this.props.styleTags}
           </Head>
           <body>
