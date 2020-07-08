@@ -69,9 +69,7 @@ const StyledWrapper = styled.div`
     max-width: 960px;
     height: auto;
   }
-  .content-heading {
-  }
-  .content-heading2 {
+  .not_res {
     display: none;
   }
   /* ------------------------------------ End section  ------------------------------------*/
@@ -169,6 +167,7 @@ const StyledWrapper = styled.div`
       display: none;
     }
     .not_res {
+      display: block;
       color: red;
       text-align: center;
     }
@@ -211,7 +210,8 @@ const DatatablePage = () => {
             <MDBDataTable striped bordered small data={data} />
           </div>
           <div className="not_res">
-            The website does not support this device.
+            The website does not support this device or please rotate the device
+            to landscape mode.
           </div>
         </div>
       </section>
