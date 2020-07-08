@@ -115,27 +115,17 @@ const DatatablePage = () => {
           <div className="container">
             <div className="nav-grid">
               <div className="logo">
-                <h1>Psu</h1>
-                <span>Procurement system</span>
+                <h1>Dictionary</h1>
+                <span>
+Medical terminology</span>
               </div>
               <div className="fr">
                 <ul className="menu">
                   <li>
-                    <a href="#">Add cart1</a>
+                    <a href="#">SEARCH</a>
                   </li>
                   <li>
-                    <a href="#">Add cart1</a>
-                  </li>
-                  <li>
-                    <a href="#">profile</a>
-                    <ul>
-                      <li>
-                        <a href="#">ข้อมูลส่วนตัว</a>
-                      </li>
-                      <li>
-                        <a href="#">ออกจากระบบ</a>
-                      </li>
-                    </ul>
+                    <a href="#">About me</a>
                   </li>
                 </ul>
               </div>
