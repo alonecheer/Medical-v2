@@ -1,8 +1,4 @@
-import React from 'react';
-import { MDBDataTable } from 'mdbreact';
-
-const DatatablePage = () => {
-  const data = {
+const data = {
     columns: [
       {
         label: 'Name',
@@ -500,15 +496,4 @@ const DatatablePage = () => {
       }
     ]
   };
-
-  return (
-    <MDBDataTable
-      striped
-      bordered
-      small
-      data={data}
-    />
-  );
-}
-
-export default DatatablePage;
+export default data;
