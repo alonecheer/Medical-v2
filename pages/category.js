@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 const StyledWrapper = styled.div`
-   * {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,11 +27,12 @@ const StyledWrapper = styled.div`
     margin-top: 20px;
   }
   h1 {
-    color: white;
+    margin: 10px;
   }
   .logo h1 {
     font-size: 28px;
     text-transform: uppercase;
+    color: white;
   }
   .logo span {
     font-size: 12px;
@@ -101,16 +102,52 @@ const StyledWrapper = styled.div`
     width: inherit;
   }
   footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
   /* ------------------------------------ End Footer  ------------------------------------*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 110px auto 110px auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .grid-container > div span {
+    font-size: 20px;
+    /*color: red;*/
+  }
+  /* ------------------------------------ End Grid  ------------------------------------*/
   @media screen and (max-width: 414px) {
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+  }
+  .grid-container > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: left;
+    padding: 2px 0;
+    font-size: 20px;
+  }
+  .grid-container > div span {
+    padding-left: 10px;
+    /*color: red;*/
+  }
     header {
       width: 100%;
       height: 120px;
@@ -170,15 +207,16 @@ const StyledWrapper = styled.div`
     .logo span {
       font-size: 12px;
     }
-    .content-heading {
+    /* .content-heading {
       display: none;
-    }
+    } */
     .not_res {
       display: block;
       color: red;
       text-align: center;
     }
   }
+  /* ------------------------------------ End Responsive  ------------------------------------*/
 `;
 
 const category = () => {
@@ -213,7 +251,30 @@ const category = () => {
       {/*------------------------------------ Start Section ------------------------------------*/}
       <section className="content">
         <div className="container">
-          <div className="content-heading"></div>
+          <div className="content-heading">
+            <h1>医生询问病情</h1>
+            <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
+            <div class="grid-container">
+              <div class="item1"><p><b>ประโยค :</b></p></div>
+              <div class="item2"><span>你哪儿不舒服？</span></div>
+              <div class="item3"><p><b>พินอิน :</b></p></div>
+              <div class="item4"><span>nĭ năr bù shū fu?</span></div>
+              <div class="item5"><p><b>คำอ่าน :</b></p></div>
+              <div class="item6"><span>หนี หน่า ปู้ ซู ฝุ</span></div>
+              <div class="item7"><p><b>ความหมาย :</b></p></div>
+              <div class="item8"><span>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</span></div>
+            {/*------------------------------------ Break ------------------------------------*/}    
+            <div class="item1"><p><b>ประโยค :</b></p></div>
+              <div class="item2"><span>你心脏有什么毛病？</span></div>
+              <div class="item3"><p><b>พินอิน :</b></p></div>
+              <div class="item4"><span>nĭ xīn zàng yŏu shénme máobìng?</span></div>
+              <div class="item5"><p><b>คำอ่าน :</b></p></div>
+              <div class="item6"><span>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</span></div>
+              <div class="item7"><p><b>ความหมาย :</b></p></div>
+              <div class="item8"><span>หัวใจของคุณมีอะไรผิดปกติ</span></div>
+            {/*------------------------------------ Break ------------------------------------*/}
+            </div>
+          </div>
         </div>
       </section>
       {/*------------------------------------ End Section ------------------------------------*/}
