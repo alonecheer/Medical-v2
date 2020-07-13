@@ -159,7 +159,7 @@ const StyledWrapper = styled.div`
   @media screen and (max-width: 414px) {
     header {
       width: 100%;
-      height: 120px;
+      height: auto;
       background-color: #01273c;
       border-top: 5px solid #40aed7;
       margin: 0 auto;
@@ -200,7 +200,7 @@ const StyledWrapper = styled.div`
     }
     .nav-grid {
       display: grid;
-      grid-template-columns: 190px 1fr;
+      grid-template-columns:  1fr;
     }
     .logo {
       color: white;
