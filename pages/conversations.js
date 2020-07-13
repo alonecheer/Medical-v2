@@ -260,7 +260,56 @@ const StyledWrapper = styled.div`
     }
   }
   /* ------------------------------------ End Responsive  ------------------------------------*/
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+      margin-top: 20px;
+  }
 
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card h3{
+    text-align: left;
+  }
+  .card p{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding-left: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+  .card h3{
+    text-align: left;
+  }
 `;
 
 const conversations = () => {
@@ -286,14 +335,14 @@ const conversations = () => {
                       <a href="#">Category</a>
                     </li>
                     <div class="dropdown-content">
-                    <a href="/disease">疾病 โรค</a>
+                      <a href="/disease">疾病 โรค</a>
                       <a href="#">Link 2</a>
                       <a href="#">Link 3</a>
                     </div>
                   </div>
                   <li>
-                      <a href="/conversations">Conversations</a>
-                    </li>
+                    <a href="/conversations">Conversations</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -305,7 +354,82 @@ const conversations = () => {
       {/*------------------------------------ Start Section ------------------------------------*/}
       <section className="content">
         <div className="container">
-          <div className="content-heading">
+        <h1>医生询问病情</h1>
+            <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <h3>ประโยค</h3>
+                <p>你哪儿不舒服？</p>
+                <h3>พินอิน</h3>
+                <p>nĭ năr bù shū fu?</p>
+                <h3>คำอ่าน</h3>
+                <p>หนี หน่า ปู้ ซู ฝุ</p>
+                <h3>ความหมาย</h3>
+                <p>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <h3>ประโยค</h3>
+                <p>你心脏有什么毛病？</p>
+                <h3>พินอิน</h3>
+                <p>nĭ xīn zàng yŏu shénme máobìng?</p>
+                <h3>คำอ่าน</h3>
+                <p>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</p>
+                <h3>ความหมาย</h3>
+                <p>หัวใจของคุณมีอะไรผิดปกติ</p>
+              </div>
+            </div><div class="column">
+              <div class="card">
+                <h3>ประโยค</h3>
+                <p>Some</p>
+                <h3>พินอิน</h3>
+                <p>Some</p>
+                <h3>คำอ่าน</h3>
+                <p>Some</p>
+                <h3>ความหมาย</h3>
+                <p>Some</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <h3>ประโยค</h3>
+                <p>你哪儿不舒服？</p>
+                <h3>พินอิน</h3>
+                <p>nĭ năr bù shū fu?</p>
+                <h3>คำอ่าน</h3>
+                <p>หนี หน่า ปู้ ซู ฝุ</p>
+                <h3>ความหมาย</h3>
+                <p>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <h3>ประโยค</h3>
+                <p>你心脏有什么毛病？</p>
+                <h3>พินอิน</h3>
+                <p>nĭ xīn zàng yŏu shénme máobìng?</p>
+                <h3>คำอ่าน</h3>
+                <p>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</p>
+                <h3>ความหมาย</h3>
+                <p>หัวใจของคุณมีอะไรผิดปกติ</p>
+              </div>
+            </div><div class="column">
+              <div class="card">
+                <h3>ประโยค</h3>
+                <p>Some</p>
+                <h3>พินอิน</h3>
+                <p>Some</p>
+                <h3>คำอ่าน</h3>
+                <p>Some</p>
+                <h3>ความหมาย</h3>
+                <p>Some</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          {/* <div className="content-heading">
             <h1>医生询问病情</h1>
             <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
             <div class="grid-container">
@@ -341,7 +465,7 @@ const conversations = () => {
               <div class="item8">
                 <span>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</span>
               </div>
-              {/*------------------------------------ Break ------------------------------------*/}
+    ###############################################################
               <div class="item1">
                 <p>
                   <b>ประโยค :</b>
@@ -374,10 +498,11 @@ const conversations = () => {
               <div class="item8">
                 <span>หัวใจของคุณมีอะไรผิดปกติ</span>
               </div>
-              {/*------------------------------------ Break ------------------------------------*/}
+
             </div>
-          </div>
-        </div>
+          </div> */}
+          
+        
       </section>
       {/*------------------------------------ End Section ------------------------------------*/}
 
