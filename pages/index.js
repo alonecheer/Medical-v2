@@ -28,12 +28,13 @@ const StyledWrapper = styled.div`
     color: white;
     margin-top: 20px;
   }
-  h1 {
-    color: white;
+  .content-heading h1 {
+    padding: 20px;
   }
   .logo h1 {
     font-size: 28px;
     text-transform: uppercase;
+    color: white;
   }
   .logo span {
     font-size: 12px;
@@ -389,7 +390,7 @@ const DatatablePage = () => {
                   </li>
                   <div class="dropdown">
                     <li>
-                      <a href="/category">Category</a>
+                      <a href="#">Category</a>
                     </li>
                     <div class="dropdown-content">
                       <a href="/disease">疾病 โรค</a>
@@ -412,6 +413,7 @@ const DatatablePage = () => {
       <section className="content">
         <div className="container">
           <div className="content-heading">
+            <h1>รวมคำศัพท์</h1>
             <MDBDataTable striped bordered small data={data} />
           </div>
           <div className="not_res">

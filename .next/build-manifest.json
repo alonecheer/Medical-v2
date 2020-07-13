@@ -24,11 +24,7 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/category": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/disease": [
+    "/conversations": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

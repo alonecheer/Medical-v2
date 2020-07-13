@@ -283,10 +283,10 @@ const conversations = () => {
                   </li>
                   <div class="dropdown">
                     <li>
-                      <a href="/category">Category</a>
+                      <a href="#">Category</a>
                     </li>
                     <div class="dropdown-content">
-                      <a href="#">Link 1</a>
+                    <a href="/disease">疾病 โรค</a>
                       <a href="#">Link 2</a>
                       <a href="#">Link 3</a>
                     </div>
