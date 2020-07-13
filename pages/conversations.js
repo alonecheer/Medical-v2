@@ -174,6 +174,12 @@ const StyledWrapper = styled.div`
   }
   /* ------------------------------------ End Grid  ------------------------------------*/
   @media screen and (max-width: 414px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      padding: 10px;
+    }
     .grid-container {
       display: grid;
       grid-template-columns: 1fr;
@@ -260,55 +266,24 @@ const StyledWrapper = styled.div`
     }
   }
   /* ------------------------------------ End Responsive  ------------------------------------*/
-  .column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-    margin-bottom: 20px;
-      margin-top: 20px;
+  .margintb{
+    padding-top: 50px;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
   }
 
-  /* Remove extra left and right margins, due to padding */
-  .row {
-    margin: 0 -5px;
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
   }
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .card h3{
-    text-align: left;
-  }
-  .card p{
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); */
-    margin: 16px;
-    padding-left: 16px;
-    text-align: left;
-    background-color: white;
-  }
-
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-      margin-top: 20px;
-    }
-  }
-
-  /* Style the counter cards */
-  .card {
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    padding: 16px;
-    text-align: left;
-    background-color: white;
-  }
-  .card h3{
-    text-align: left;
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
   }
 `;
 
@@ -330,11 +305,11 @@ const conversations = () => {
                   <li>
                     <a href="/">SEARCH</a>
                   </li>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <li>
                       <a href="#">Category</a>
                     </li>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                       <a href="/disease">疾病 โรค</a>
                       <a href="#">Link 2</a>
                       <a href="#">Link 3</a>
@@ -354,155 +329,49 @@ const conversations = () => {
       {/*------------------------------------ Start Section ------------------------------------*/}
       <section className="content">
         <div className="container">
-        <h1>医生询问病情</h1>
-            <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
-          <div class="row">
-            <div class="column">
-              <div class="card">
-                <h3>ประโยค</h3>
-                <p>你哪儿不舒服？</p>
-                <h3>พินอิน</h3>
-                <p>nĭ năr bù shū fu?</p>
-                <h3>คำอ่าน</h3>
-                <p>หนี หน่า ปู้ ซู ฝุ</p>
-                <h3>ความหมาย</h3>
-                <p>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</p>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <h3>ประโยค</h3>
-                <p>你心脏有什么毛病？</p>
-                <h3>พินอิน</h3>
-                <p>nĭ xīn zàng yŏu shénme máobìng?</p>
-                <h3>คำอ่าน</h3>
-                <p>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</p>
-                <h3>ความหมาย</h3>
-                <p>หัวใจของคุณมีอะไรผิดปกติ</p>
-              </div>
-            </div><div class="column">
-              <div class="card">
-                <h3>ประโยค</h3>
-                <p>Some</p>
-                <h3>พินอิน</h3>
-                <p>Some</p>
-                <h3>คำอ่าน</h3>
-                <p>Some</p>
-                <h3>ความหมาย</h3>
-                <p>Some</p>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <h3>ประโยค</h3>
-                <p>你哪儿不舒服？</p>
-                <h3>พินอิน</h3>
-                <p>nĭ năr bù shū fu?</p>
-                <h3>คำอ่าน</h3>
-                <p>หนี หน่า ปู้ ซู ฝุ</p>
-                <h3>ความหมาย</h3>
-                <p>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</p>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <h3>ประโยค</h3>
-                <p>你心脏有什么毛病？</p>
-                <h3>พินอิน</h3>
-                <p>nĭ xīn zàng yŏu shénme máobìng?</p>
-                <h3>คำอ่าน</h3>
-                <p>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</p>
-                <h3>ความหมาย</h3>
-                <p>หัวใจของคุณมีอะไรผิดปกติ</p>
-              </div>
-            </div><div class="column">
-              <div class="card">
-                <h3>ประโยค</h3>
-                <p>Some</p>
-                <h3>พินอิน</h3>
-                <p>Some</p>
-                <h3>คำอ่าน</h3>
-                <p>Some</p>
-                <h3>ความหมาย</h3>
-                <p>Some</p>
-              </div>
-            </div>
-            </div>
-          </div>
-          {/* <div className="content-heading">
-            <h1>医生询问病情</h1>
-            <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
-            <div class="grid-container">
-              <div class="item1">
-                <p>
-                  <b>ประโยค :</b>
-                </p>
-              </div>
-              <div class="item2">
-                <span>你哪儿不舒服？</span>
-              </div>
-              <div class="item3">
-                <p>
-                  <b>พินอิน :</b>
-                </p>
-              </div>
-              <div class="item4">
-                <span>nĭ năr bù shū fu?</span>
-              </div>
-              <div class="item5">
-                <p>
-                  <b>คำอ่าน :</b>
-                </p>
-              </div>
-              <div class="item6">
-                <span>หนี หน่า ปู้ ซู ฝุ</span>
-              </div>
-              <div class="item7">
-                <p>
-                  <b>ความหมาย :</b>
-                </p>
-              </div>
-              <div class="item8">
-                <span>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</span>
-              </div>
-    ###############################################################
-              <div class="item1">
-                <p>
-                  <b>ประโยค :</b>
-                </p>
-              </div>
-              <div class="item2">
-                <span>你心脏有什么毛病？</span>
-              </div>
-              <div class="item3">
-                <p>
-                  <b>พินอิน :</b>
-                </p>
-              </div>
-              <div class="item4">
-                <span>nĭ xīn zàng yŏu shénme máobìng?</span>
-              </div>
-              <div class="item5">
-                <p>
-                  <b>คำอ่าน :</b>
-                </p>
-              </div>
-              <div class="item6">
-                <span>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</span>
-              </div>
-              <div class="item7">
-                <p>
-                  <b>ความหมาย :</b>
-                </p>
-              </div>
-              <div class="item8">
-                <span>หัวใจของคุณมีอะไรผิดปกติ</span>
-              </div>
+          <div className="margintb" style={{overflowX:"auto"}}>
+            <table>
+              <tbody>
+              <tr>
+                <th>ประโยค</th>
+                <th>พินอิน</th>
+                <th>ความหมาย</th>
+                
+              </tr>
+              <tr>
+                <td>大 夫 ，我 不  太  舒  服</td>
+                <td> dài fu ， wǒ bú tài shū fu。</td>
+                <td> คุณหมอครับผมไม่ค่อยสบาย</td>
 
+              </tr>
+
+              </tbody>
+            </table>
+          </div>
+          {/* <div className="grids">
+            <div className="item1">
+              <h2>ประโยค</h2>
+              <p>症状</p>
+              <p>我的头很痛</p>
+            </div>
+
+            <div className="item1">
+              <h2>พินอิน</h2>
+              <p>Zhèngzhuàng</p>
+              <p>Wǒ de tóu hěn tòng.</p>
+            </div>
+            <div className="item1">
+              <h2>คำอ่าน</h2>
+              <p>เจิ้ง จ้วง</p>
+              <p>หว่อ เตอ โถว เหิ่น โท่ง</p>
+            </div>
+            <div className="item1">
+              <h2>ความหมาย</h2>
+              <p>อาการป่วย</p>
+              <p>ผมปวดหัวมากเลยครับ</p>
             </div>
           </div> */}
-          
-        
+        </div>
       </section>
       {/*------------------------------------ End Section ------------------------------------*/}
 
