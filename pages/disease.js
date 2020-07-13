@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const StyledWrapper = styled.div``
-const category = () => {
+const disease = () => {
     return(
         <StyledWrapper>
-            category
+            disease
         </StyledWrapper>
     )
 }
-export default category
+export default disease

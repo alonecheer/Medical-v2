@@ -1,6 +1,4 @@
 import React from "react";
-import { MDBDataTable } from "mdbreact";
-
 import styled from "styled-components";
 const StyledWrapper = styled.div`
   * {
@@ -29,11 +27,12 @@ const StyledWrapper = styled.div`
     margin-top: 20px;
   }
   h1 {
-    color: white;
+    margin: 10px;
   }
   .logo h1 {
     font-size: 28px;
     text-transform: uppercase;
+    color: white;
   }
   .logo span {
     font-size: 12px;
@@ -146,16 +145,52 @@ const StyledWrapper = styled.div`
     width: inherit;
   }
   footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
   /* ------------------------------------ End Footer  ------------------------------------*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 110px auto 110px auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .grid-container > div span {
+    font-size: 20px;
+    /*color: red;*/
+  }
+  /* ------------------------------------ End Grid  ------------------------------------*/
   @media screen and (max-width: 414px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2px;
+      /*background-color: #2196F3;*/
+      padding: 10px;
+    }
+    .grid-container > div {
+      /*background-color: rgba(255, 255, 255, 0.8);*/
+      text-align: left;
+      padding: 2px 0;
+      font-size: 20px;
+    }
+    .grid-container > div span {
+      padding-left: 10px;
+      /*color: red;*/
+    }
     header {
       width: 100%;
       height: 120px;
@@ -215,161 +250,20 @@ const StyledWrapper = styled.div`
     .logo span {
       font-size: 12px;
     }
-    .content-heading {
+    /* .content-heading {
       display: none;
-    }
+    } */
     .not_res {
       display: block;
       color: red;
       text-align: center;
     }
   }
+  /* ------------------------------------ End Responsive  ------------------------------------*/
+
 `;
 
-const DatatablePage = () => {
-  const data = {
-    columns: [
-      {
-        label: 'ภาษาจีน',
-        field: 'cn',
-        sort: 'asc',
-        width: 150
-      },
-      {
-        label: 'พินอิน',
-        field: 'pinin',
-        sort: 'asc',
-        width: 270
-      },
-      {
-        label: 'คำอ่าน',
-        field: 'read',
-        sort: 'asc',
-        width: 200
-      },
-      {
-        label: 'ภาษาอังกฤษ',
-        field: 'eng',
-        sort: 'asc',
-        width: 100
-      },
-      {
-        label: 'ภาษาไทย',
-        field: 'th',
-        sort: 'asc',
-        width: 150
-      },
-
-    ],
-    rows: [
-      {
-        cn: '医生，医师',
-        pinin: 'yīshēng,yīshī',
-        read: 'อีเซิง , อีซือ',
-        eng: 'doctor　',
-        th: 'หมอ/นายแพทย์',
-      },
-      {
-        cn: '法医学',
-        pinin: 'fă yī xué',
-        read: 'เตี้ยน อิ่ง กง เย่',
-        eng: 'forensic medicine',
-        th: 'นิติเวชศาสตร์',
-      },
-      {
-        cn: '内科医师',
-        pinin: 'nèikē yī shī',
-        read: 'เน่ยเคอ ซืออี',
-        eng: 'physician',
-        th: 'แพทย์อายุรเวช',
-      },
-      {
-        cn: '家庭医生',
-        pinin: 'jiātíng yisheng',
-        read: 'เจียถิง อีเซิง',
-        eng: 'family doctor',
-        th: 'หมอบ้าน',
-      },
-      {
-        cn: '儿科医师',
-        pinin: 'ér kē  yī shī',
-        read: 'pediatrician, pediatrist ',
-        eng: 'เอ๋อ เคอ อีซือ',
-        th: 'กุมารแพทย์',
-      },
-      {
-        cn: '妇科医师',
-        pinin: 'fù kē  yī shī',
-        read: 'ฟู่ เคอ อี ซือ',
-        eng: 'gynecologist',
-        th: 'นรีแพทย์',
-      },
-      {
-        cn: '产科医师',
-        pinin: 'chăn kē  yī shī',
-        read: 'ฉ่าน เคอ อี ซือ',
-        eng: 'tocologist, obstetrician',
-        th: 'สูติแพทย์',
-      },
-      {
-        cn: '神经专家',
-        pinin: 'shén jīng  zhuān jiā',
-        read: 'เสิน จิง จวนเจีย',
-        eng: 'neurologist',
-        th: 'ผู้เชี่ยวชาญทางด้านประสาทวิทยา',
-      },
-      {
-        cn: '精神病学专家',
-        pinin: 'jīng shén bìng xué zhuān jiā',
-        read: 'จิง เสิน ปิ้ง เสวีย จวนเจีย',
-        eng: 'psychiatrist',
-        th: 'จิตแพทย์',
-      },
-      {
-        cn: '眼科医师',
-        pinin: 'yǎn kē yī shī',
-        read: 'แหย่น เคอ อีซือ',
-        eng: 'oculist ',
-        th: 'จักษุแพทย์',
-      },
-      {
-        cn: '牙医师',
-        pinin: 'yá  yī shī',
-        read: 'หยา อี ซือ',
-        eng: 'dentist, odontologist',
-        th: 'หมอฟัน',
-      },
-      {
-        cn: '外科医师',
-        pinin: 'wài kē  yī shī',
-        read: 'ว่ายเคอ อีซือ',
-        eng: 'surgeon',
-        th: 'หมอศัลยกรรม',
-      },
-      {
-        cn: '麻醉师',
-        pinin: 'má zuì  shī',
-        read: 'หมาจุ้ย ซือ',
-        eng: 'anesthetist, anaesthetist',
-        th: 'ผู้วางยาชาหรือยาสลบ',
-      },
-      {
-        cn: '护士',
-        pinin: 'hù shi',
-        read: 'ฮู้ สึ',
-        eng: 'nurse',
-        th: 'นางพยาบาล',
-      },
-    //   {
-    //     cn: 'xxxx',
-    //     pinin: 'xxxx',
-    //     read: 'xxxx',
-    //     eng: 'xxxx',
-    //     th: 'xxxx',
-    //   },
-
-    ]
-  };
+const conversations = () => {
   return (
     <StyledWrapper>
       <title>Homepage</title>
@@ -392,7 +286,7 @@ const DatatablePage = () => {
                       <a href="/category">Category</a>
                     </li>
                     <div class="dropdown-content">
-                      <a href="/disease">疾病 โรค</a>
+                      <a href="#">Link 1</a>
                       <a href="#">Link 2</a>
                       <a href="#">Link 3</a>
                     </div>
@@ -412,11 +306,76 @@ const DatatablePage = () => {
       <section className="content">
         <div className="container">
           <div className="content-heading">
-            <MDBDataTable striped bordered small data={data} />
-          </div>
-          <div className="not_res">
-            The website does not support this device or please rotate the device
-            to landscape mode.
+            <h1>医生询问病情</h1>
+            <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
+            <div class="grid-container">
+              <div class="item1">
+                <p>
+                  <b>ประโยค :</b>
+                </p>
+              </div>
+              <div class="item2">
+                <span>你哪儿不舒服？</span>
+              </div>
+              <div class="item3">
+                <p>
+                  <b>พินอิน :</b>
+                </p>
+              </div>
+              <div class="item4">
+                <span>nĭ năr bù shū fu?</span>
+              </div>
+              <div class="item5">
+                <p>
+                  <b>คำอ่าน :</b>
+                </p>
+              </div>
+              <div class="item6">
+                <span>หนี หน่า ปู้ ซู ฝุ</span>
+              </div>
+              <div class="item7">
+                <p>
+                  <b>ความหมาย :</b>
+                </p>
+              </div>
+              <div class="item8">
+                <span>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</span>
+              </div>
+              {/*------------------------------------ Break ------------------------------------*/}
+              <div class="item1">
+                <p>
+                  <b>ประโยค :</b>
+                </p>
+              </div>
+              <div class="item2">
+                <span>你心脏有什么毛病？</span>
+              </div>
+              <div class="item3">
+                <p>
+                  <b>พินอิน :</b>
+                </p>
+              </div>
+              <div class="item4">
+                <span>nĭ xīn zàng yŏu shénme máobìng?</span>
+              </div>
+              <div class="item5">
+                <p>
+                  <b>คำอ่าน :</b>
+                </p>
+              </div>
+              <div class="item6">
+                <span>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</span>
+              </div>
+              <div class="item7">
+                <p>
+                  <b>ความหมาย :</b>
+                </p>
+              </div>
+              <div class="item8">
+                <span>หัวใจของคุณมีอะไรผิดปกติ</span>
+              </div>
+              {/*------------------------------------ Break ------------------------------------*/}
+            </div>
           </div>
         </div>
       </section>
@@ -441,5 +400,4 @@ const DatatablePage = () => {
     </StyledWrapper>
   );
 };
-
-export default DatatablePage;
+export default conversations;
