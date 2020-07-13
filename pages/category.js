@@ -132,22 +132,22 @@ const StyledWrapper = styled.div`
   /* ------------------------------------ End Grid  ------------------------------------*/
   @media screen and (max-width: 414px) {
     .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2px;
-    /*background-color: #2196F3;*/
-    padding: 10px;
-  }
-  .grid-container > div {
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-    text-align: left;
-    padding: 2px 0;
-    font-size: 20px;
-  }
-  .grid-container > div span {
-    padding-left: 10px;
-    /*color: red;*/
-  }
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2px;
+      /*background-color: #2196F3;*/
+      padding: 10px;
+    }
+    .grid-container > div {
+      /*background-color: rgba(255, 255, 255, 0.8);*/
+      text-align: left;
+      padding: 2px 0;
+      font-size: 20px;
+    }
+    .grid-container > div span {
+      padding-left: 10px;
+      /*color: red;*/
+    }
     header {
       width: 100%;
       height: 120px;
@@ -217,6 +217,49 @@ const StyledWrapper = styled.div`
     }
   }
   /* ------------------------------------ End Responsive  ------------------------------------*/
+  .dropbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5px;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
 `;
 
 const category = () => {
@@ -237,9 +280,16 @@ const category = () => {
                   <li>
                     <a href="/">SEARCH</a>
                   </li>
-                  <li>
-                    <a href="/category">Category</a>
-                  </li>
+                  <div class="dropdown">
+                    <li>
+                      <a href="/category">Category</a>
+                    </li>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
                 </ul>
               </div>
             </div>
@@ -255,24 +305,72 @@ const category = () => {
             <h1>医生询问病情</h1>
             <p>( หมอสอบถามอาการป่วยของคนไข้ )</p>
             <div class="grid-container">
-              <div class="item1"><p><b>ประโยค :</b></p></div>
-              <div class="item2"><span>你哪儿不舒服？</span></div>
-              <div class="item3"><p><b>พินอิน :</b></p></div>
-              <div class="item4"><span>nĭ năr bù shū fu?</span></div>
-              <div class="item5"><p><b>คำอ่าน :</b></p></div>
-              <div class="item6"><span>หนี หน่า ปู้ ซู ฝุ</span></div>
-              <div class="item7"><p><b>ความหมาย :</b></p></div>
-              <div class="item8"><span>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</span></div>
-            {/*------------------------------------ Break ------------------------------------*/}    
-            <div class="item1"><p><b>ประโยค :</b></p></div>
-              <div class="item2"><span>你心脏有什么毛病？</span></div>
-              <div class="item3"><p><b>พินอิน :</b></p></div>
-              <div class="item4"><span>nĭ xīn zàng yŏu shénme máobìng?</span></div>
-              <div class="item5"><p><b>คำอ่าน :</b></p></div>
-              <div class="item6"><span>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</span></div>
-              <div class="item7"><p><b>ความหมาย :</b></p></div>
-              <div class="item8"><span>หัวใจของคุณมีอะไรผิดปกติ</span></div>
-            {/*------------------------------------ Break ------------------------------------*/}
+              <div class="item1">
+                <p>
+                  <b>ประโยค :</b>
+                </p>
+              </div>
+              <div class="item2">
+                <span>你哪儿不舒服？</span>
+              </div>
+              <div class="item3">
+                <p>
+                  <b>พินอิน :</b>
+                </p>
+              </div>
+              <div class="item4">
+                <span>nĭ năr bù shū fu?</span>
+              </div>
+              <div class="item5">
+                <p>
+                  <b>คำอ่าน :</b>
+                </p>
+              </div>
+              <div class="item6">
+                <span>หนี หน่า ปู้ ซู ฝุ</span>
+              </div>
+              <div class="item7">
+                <p>
+                  <b>ความหมาย :</b>
+                </p>
+              </div>
+              <div class="item8">
+                <span>คุณไม่สบายตรงไหน (อาการเป็นยังงัย)</span>
+              </div>
+              {/*------------------------------------ Break ------------------------------------*/}
+              <div class="item1">
+                <p>
+                  <b>ประโยค :</b>
+                </p>
+              </div>
+              <div class="item2">
+                <span>你心脏有什么毛病？</span>
+              </div>
+              <div class="item3">
+                <p>
+                  <b>พินอิน :</b>
+                </p>
+              </div>
+              <div class="item4">
+                <span>nĭ xīn zàng yŏu shénme máobìng?</span>
+              </div>
+              <div class="item5">
+                <p>
+                  <b>คำอ่าน :</b>
+                </p>
+              </div>
+              <div class="item6">
+                <span>หนี่ ซิน จ้าง โหย่ว เสิน เมอ เหมาปิ้ง</span>
+              </div>
+              <div class="item7">
+                <p>
+                  <b>ความหมาย :</b>
+                </p>
+              </div>
+              <div class="item8">
+                <span>หัวใจของคุณมีอะไรผิดปกติ</span>
+              </div>
+              {/*------------------------------------ Break ------------------------------------*/}
             </div>
           </div>
         </div>
