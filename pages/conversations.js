@@ -283,11 +283,11 @@ const StyledWrapper = styled.div`
     text-align: left;
   }
   .card p{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); */
     margin: 16px;
     padding-left: 16px;
     text-align: left;
-    background-color: #f1f1f1;
+    background-color: white;
   }
 
   /* Responsive columns */
@@ -302,10 +302,10 @@ const StyledWrapper = styled.div`
 
   /* Style the counter cards */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     padding: 16px;
     text-align: left;
-    background-color: #f1f1f1;
+    background-color: white;
   }
   .card h3{
     text-align: left;
