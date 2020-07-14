@@ -180,6 +180,7 @@ const StyledWrapper = styled.div`
       grid-template-columns: repeat(1, 1fr);
       justify-items: center;
       margin-top: 7%;
+      margin-bottom: 7%;
     }
     ul.menu li {
       text-decoration: none;

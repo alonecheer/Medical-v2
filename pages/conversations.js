@@ -145,11 +145,11 @@ const StyledWrapper = styled.div`
     width: inherit;
   }
   footer {
+    margin-top:50px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
     color: white;
     text-align: center;
   }
@@ -173,7 +173,11 @@ const StyledWrapper = styled.div`
     /*color: red;*/
   }
   /* ------------------------------------ End Grid  ------------------------------------*/
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 415px) {
+    .margintb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
     .grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -208,18 +212,21 @@ const StyledWrapper = styled.div`
       width: 100%;
       height: 80px;
       background-color: #01273c;
+     
     }
     .copyright-grid {
       display: grid;
       grid-template-columns: 1fr;
       height: 60px;
-      color: white;
+      color: white; 
+      margin-top:50px;
     }
     ul.menu {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       justify-items: center;
       margin-top: 7%;
+      margin-bottom: 7%;
     }
     ul.menu li {
       text-decoration: none;
@@ -266,8 +273,9 @@ const StyledWrapper = styled.div`
     }
   }
   /* ------------------------------------ End Responsive  ------------------------------------*/
-  .margintb{
+  .margintb {
     padding-top: 50px;
+    padding-bottom: 50px;
   }
   table {
     border-collapse: collapse;
@@ -329,22 +337,136 @@ const conversations = () => {
       {/*------------------------------------ Start Section ------------------------------------*/}
       <section className="content">
         <div className="container">
-          <div className="margintb" style={{overflowX:"auto"}}>
+          <div className="margintb" style={{ overflowX: "auto" }}>
             <table>
               <tbody>
-              <tr>
-                <th>ประโยค</th>
-                <th>พินอิน</th>
-                <th>ความหมาย</th>
-                
-              </tr>
-              <tr>
-                <td>大 夫 ，我 不  太  舒  服</td>
-                <td> dài fu ， wǒ bú tài shū fu。</td>
-                <td> คุณหมอครับผมไม่ค่อยสบาย</td>
-
-              </tr>
-
+                <tr>
+                  <th>ประโยค</th>
+                  <th>พินอิน</th>
+                  <th>ความหมาย</th>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> คุณหมอครับผมไม่ค่อยสบาย</td>
+                </tr>
+                <tr>
+                  <td>大 夫 ，我 不 太 舒 服</td>
+                  <td> dài fu ， wǒ bú tài shū fu。</td>
+                  <td> sdfmkdsjkfjwerkjewlkr</td>
+                </tr>
+             
+               
               </tbody>
             </table>
           </div>
