@@ -1,12 +1,9 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
-import Header from './component/header'
-import Footer from './component/footer'
+import Header from './header'
+import Footer from './footer'
 import '../public/static/style/main.css'
-import styled from "styled-components";
-const StyledWrapper = styled.div`
 
-`;
 const disease = () => {
   const data = {
     columns: [
@@ -322,9 +319,9 @@ const disease = () => {
         th: " โรคเรื้อรัง ",
       },
       {
-        cn: "โรคหัด ",
+        cn: "麻疹 ",
         pinin: "Má zhěn ",
-        th: "麻疹 ",
+        th: " โรคหัด",
       },
       {
         cn: "麻痹",
@@ -635,7 +632,7 @@ const disease = () => {
     ],
   };
   return (
-    <StyledWrapper>
+    <div>
       <title>Homepage</title>
       {/*------------------------------------ Start Header ------------------------------------*/}
       <Header />
@@ -655,7 +652,7 @@ const disease = () => {
       {/*------------------------------------ Start Footer ------------------------------------*/}
       <Footer />
       {/*------------------------------------ End Footer ------------------------------------*/}
-    </StyledWrapper>
+    </div>
   );
 };
 export default disease;

@@ -1,12 +1,8 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
-import Header from './component/header'
-import Footer from './component/footer'
-import '../public/static/style/main.css'
-import styled from "styled-components";
-const StyledWrapper = styled.div`
+import Header from './header'
+import Footer from './footer' 
 
-`;
 
 const DatatablePage = () => {
   const data = {
@@ -153,7 +149,7 @@ const DatatablePage = () => {
     ]
   };
   return (
-    <StyledWrapper>
+    <div>
       <title>Homepage</title>
       {/*------------------------------------ Start Header ------------------------------------*/}
       <Header />
@@ -177,7 +173,7 @@ const DatatablePage = () => {
       {/*------------------------------------ Start Footer ------------------------------------*/}
      <Footer />
       {/*------------------------------------ End Footer ------------------------------------*/}
-    </StyledWrapper>
+    </div>
   );
 };
 

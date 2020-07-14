@@ -1,13 +1,9 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
-import Header from './component/header'
-import Footer from './component/footer'
+import Header from './header'
+import Footer from './footer'
 import '../public/static/style/main.css'
-import styled from "styled-components";
 
-const StyledWrapper = styled.div`
-  
-`;
 const medicine = () => {
   const data = {
     columns: [
@@ -389,7 +385,7 @@ const medicine = () => {
     ],
   };
   return (
-    <StyledWrapper>
+    <div>
       <title>Homepage</title>
       {/*------------------------------------ Start Header ------------------------------------*/}
       <Header />
@@ -409,7 +405,7 @@ const medicine = () => {
       {/*------------------------------------ Start Footer ------------------------------------*/}
       <Footer />
       {/*------------------------------------ End Footer ------------------------------------*/}
-    </StyledWrapper>
+    </div>
   );
 };
 export default medicine;
