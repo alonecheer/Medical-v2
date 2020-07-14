@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './component/header'
 import Footer from './component/footer'
+import '../public/static/style/main.css'
 import styled from "styled-components";
 const StyledWrapper = styled.div`
   * {

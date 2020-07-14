@@ -241,11 +241,11 @@ const Header = () => {
                   <li>
                     <a href="/">SEARCH</a>
                   </li>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <li>
                       <a href="#">Category</a>
                     </li>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                       <a href="/disease">疾病 หมวดโรค</a>
                       <a href="/medicine">药品 หมวดยา</a>
                       <a href="#">Link 3</a>
