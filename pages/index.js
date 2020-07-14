@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
-
+import Header from './component/header'
 import styled from "styled-components";
 const StyledWrapper = styled.div`
   * {
@@ -376,38 +376,7 @@ const DatatablePage = () => {
     <StyledWrapper>
       <title>Homepage</title>
       {/*------------------------------------ Start Header ------------------------------------*/}
-      <header>
-        <nav>
-          <div className="container">
-            <div className="nav-grid">
-              <div className="logo">
-                <h1>Dictionary</h1>
-                <span>Medical terminology</span>
-              </div>
-              <div className="fr">
-                <ul className="menu">
-                  <li>
-                    <a href="/">SEARCH</a>
-                  </li>
-                  <div class="dropdown">
-                    <li>
-                      <a href="#">Category</a>
-                    </li>
-                    <div class="dropdown-content">
-                      <a href="/disease">疾病 โรค</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                  </div>
-                  <li>
-                      <a href="/conversations">Conversations</a>
-                    </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
       {/*------------------------------------ End Header ------------------------------------*/}
 
       {/*------------------------------------ Start Section ------------------------------------*/}

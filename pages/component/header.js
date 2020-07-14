@@ -1,8 +1,7 @@
-import React from "react";
-import { MDBDataTable } from "mdbreact";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 const StyledWrapper = styled.div`
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -146,14 +145,14 @@ const StyledWrapper = styled.div`
     width: inherit;
   }
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
   /* ------------------------------------ End Footer  ------------------------------------*/
   @media screen and (max-width: 414px) {
     header {
@@ -200,14 +199,14 @@ const StyledWrapper = styled.div`
     }
     .nav-grid {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns:  1fr;
     }
     .logo {
       color: white;
       margin-top: 20px;
     }
     h1 {
-      color: black;
+      color: white;
     }
     .logo h1 {
       font-size: 28px;
@@ -225,49 +224,11 @@ const StyledWrapper = styled.div`
       text-align: center;
     }
   }
-`;
-const disease = () => {
-  const data = {
-    columns: [
-      {
-        label: "ภาษาจีน",
-        field: "cn",
-        sort: "asc",
-        width: 150,
-      },
-      {
-        label: "พินอิน",
-        field: "pinin",
-        sort: "asc",
-        width: 270,
-      },
-     
-      {
-        label: "ภาษาไทย",
-        field: "th",
-        sort: "asc",
-        width: 150,
-      },
-    ],
-    rows: [
-      {
-        cn: "糖尿病",
-        pinin: "tángniàobìng",
-        th: "เบาหวาน",
-      },
-      {
-        cn: "癌",
-        pinin: "ái",
-        th: "มะเร็ง",
-      },
-      
-    ],
-  };
-  return (
-    <StyledWrapper>
-      <title>Homepage</title>
-      {/*------------------------------------ Start Header ------------------------------------*/}
-      <header>
+`
+const Header = () => {
+    return(
+        <StyledWrapper>
+ <header>
         <nav>
           <div className="container">
             <div className="nav-grid">
@@ -285,50 +246,21 @@ const disease = () => {
                       <a href="#">Category</a>
                     </li>
                     <div class="dropdown-content">
-                      <a href="/disease">疾病 โรค</a>
+                      <a href="/disease">疾病 หมวดโรค</a>
                       <a href="/medicine">药品 หมวดยา</a>
                       <a href="#">Link 3</a>
                     </div>
                   </div>
                   <li>
-                    <a href="/conversations">Conversations</a>
-                  </li>
+                      <a href="/conversations">Conversations</a>
+                    </li>
                 </ul>
               </div>
             </div>
           </div>
         </nav>
       </header>
-      {/*------------------------------------ End Header ------------------------------------*/}
-
-      {/*------------------------------------ Start Section ------------------------------------*/}
-      <section className="content">
-        <div className="container">
-          <div className="content-heading">
-            <h1>คำศัพท์ภาษาจีน หมวดโรค</h1>
-            <MDBDataTable striped bordered small data={data} />
-          </div>
-        </div>
-      </section>
-      {/*------------------------------------ End Section ------------------------------------*/}
-
-      {/*------------------------------------ Start Footer ------------------------------------*/}
-      <footer>
-        <div className="copyright">
-          <div className="container">
-            <div className="copyright-grid">
-              <div className="copytext">
-                <p>Copyright © 2020 Chatchaya - All Rights Reserved</p>
-              </div>
-              <div className="creadit">
-                <p>Meen</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      {/*------------------------------------ End Footer ------------------------------------*/}
-    </StyledWrapper>
-  );
-};
-export default disease;
+        </StyledWrapper>
+    )
+}
+export default Header;

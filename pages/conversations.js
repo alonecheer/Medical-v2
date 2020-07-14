@@ -319,7 +319,7 @@ const conversations = () => {
                     </li>
                     <div className="dropdown-content">
                       <a href="/disease">疾病 โรค</a>
-                      <a href="#">Link 2</a>
+                      <a href="/medicine">药品 หมวดยา</a>
                       <a href="#">Link 3</a>
                     </div>
                   </div>
