@@ -1,4 +1,6 @@
 import React from "react";
+import Header from './component/header'
+import Footer from './component/footer'
 import styled from "styled-components";
 const StyledWrapper = styled.div`
   * {
@@ -300,38 +302,7 @@ const conversations = () => {
     <StyledWrapper>
       <title>Homepage</title>
       {/*------------------------------------ Start Header ------------------------------------*/}
-      <header>
-        <nav>
-          <div className="container">
-            <div className="nav-grid">
-              <div className="logo">
-                <h1>Dictionary</h1>
-                <span>Medical terminology</span>
-              </div>
-              <div className="fr">
-                <ul className="menu">
-                  <li>
-                    <a href="/">SEARCH</a>
-                  </li>
-                  <div className="dropdown">
-                    <li>
-                      <a href="#">Category</a>
-                    </li>
-                    <div className="dropdown-content">
-                      <a href="/disease">疾病 โรค</a>
-                      <a href="/medicine">药品 หมวดยา</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                  </div>
-                  <li>
-                    <a href="/conversations">Conversations</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
       {/*------------------------------------ End Header ------------------------------------*/}
 
       {/*------------------------------------ Start Section ------------------------------------*/}
@@ -498,20 +469,7 @@ const conversations = () => {
       {/*------------------------------------ End Section ------------------------------------*/}
 
       {/*------------------------------------ Start Footer ------------------------------------*/}
-      <footer>
-        <div className="copyright">
-          <div className="container">
-            <div className="copyright-grid">
-              <div className="copytext">
-                <p>Copyright © 2020 Chatchaya - All Rights Reserved</p>
-              </div>
-              <div className="creadit">
-                <p>Meen</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
       {/*------------------------------------ End Footer ------------------------------------*/}
     </StyledWrapper>
   );

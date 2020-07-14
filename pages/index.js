@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
 import Header from './component/header'
+import Footer from './component/footer'
 import styled from "styled-components";
 const StyledWrapper = styled.div`
   * {
@@ -395,20 +396,7 @@ const DatatablePage = () => {
       {/*------------------------------------ End Section ------------------------------------*/}
 
       {/*------------------------------------ Start Footer ------------------------------------*/}
-      <footer>
-        <div className="copyright">
-          <div className="container">
-            <div className="copyright-grid">
-              <div className="copytext">
-                <p>Copyright © 2020 Chatchaya - All Rights Reserved</p>
-              </div>
-              <div className="creadit">
-                <p>Meen</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+     <Footer />
       {/*------------------------------------ End Footer ------------------------------------*/}
     </StyledWrapper>
   );

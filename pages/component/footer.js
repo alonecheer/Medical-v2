@@ -1,10 +1,7 @@
-import React from "react";
-import { MDBDataTable } from "mdbreact";
-import Header from './component/header'
-import Footer from './component/footer'
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 const StyledWrapper = styled.div`
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -148,14 +145,14 @@ const StyledWrapper = styled.div`
     width: inherit;
   }
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
   /* ------------------------------------ End Footer  ------------------------------------*/
   @media screen and (max-width: 414px) {
     header {
@@ -202,14 +199,14 @@ const StyledWrapper = styled.div`
     }
     .nav-grid {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns:  1fr;
     }
     .logo {
       color: white;
       margin-top: 20px;
     }
     h1 {
-      color: black;
+      color: white;
     }
     .logo h1 {
       font-size: 28px;
@@ -227,66 +224,25 @@ const StyledWrapper = styled.div`
       text-align: center;
     }
   }
-`;
-const disease = () => {
-  const data = {
-    columns: [
-      {
-        label: "ภาษาจีน",
-        field: "cn",
-        sort: "asc",
-        width: 150,
-      },
-      {
-        label: "พินอิน",
-        field: "pinin",
-        sort: "asc",
-        width: 270,
-      },
-     
-      {
-        label: "ภาษาไทย",
-        field: "th",
-        sort: "asc",
-        width: 150,
-      },
-    ],
-    rows: [
-      {
-        cn: "糖尿病",
-        pinin: "tángniàobìng",
-        th: "เบาหวาน",
-      },
-      {
-        cn: "癌",
-        pinin: "ái",
-        th: "มะเร็ง",
-      },
-      
-    ],
-  };
-  return (
-    <StyledWrapper>
-      <title>Homepage</title>
-      {/*------------------------------------ Start Header ------------------------------------*/}
-      <Header />
-      {/*------------------------------------ End Header ------------------------------------*/}
-
-      {/*------------------------------------ Start Section ------------------------------------*/}
-      <section className="content">
-        <div className="container">
-          <div className="content-heading">
-            <h1>คำศัพท์ภาษาจีน หมวดโรค</h1>
-            <MDBDataTable striped bordered small data={data} />
+`
+const Footer = () => {
+    return(
+        <StyledWrapper>
+ <footer>
+        <div className="copyright">
+          <div className="container">
+            <div className="copyright-grid">
+              <div className="copytext">
+                <p>Copyright © 2020 Chatchaya - All Rights Reserved</p>
+              </div>
+              <div className="creadit">
+                <p>Meen</p>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      {/*------------------------------------ End Section ------------------------------------*/}
-
-      {/*------------------------------------ Start Footer ------------------------------------*/}
-      <Footer />
-      {/*------------------------------------ End Footer ------------------------------------*/}
-    </StyledWrapper>
-  );
-};
-export default disease;
+      </footer>
+        </StyledWrapper>
+    )
+}
+export default Footer;
