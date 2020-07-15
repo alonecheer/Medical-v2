@@ -14,7 +14,6 @@ header {
 
 .container {
   max-width: 960px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -40,12 +39,13 @@ header {
 ul.menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-top: 7%;
 }
 
 ul.menu li {
   text-align: center;
   list-style: none;
-  margin-top: 13%;
 }
 
 ul.menu li a {
@@ -62,15 +62,6 @@ ul.menu li a:hover {
   border-radius: 5px;
 }
 
-.dropbtn {
-  background-color: #4caf50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -81,8 +72,6 @@ ul.menu li a:hover {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 .dropdown-content a {
@@ -102,6 +91,90 @@ ul.menu li a:hover {
   border-radius: 5px;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+/* ------------------------------------ End header  ------------------------------------*/
+
+@media screen and (max-width: 375px) {
+  header {
+    width: 100%;
+    height: auto;
+    background-color: #01273c;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .nav-gid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .name-web {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .name-web h1 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .name-web span {
+    font-size: 12px;
+  }
+
+  ul.menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin-top: 7%;
+  }
+
+  ul.menu li {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    width: 100%;
+    height: auto;
+    background-color: #01273c;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .nav-gid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .name-web {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .name-web h1 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .name-web span {
+    font-size: 12px;
+  }
+
+  ul.menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin-top: 7%;
+  }
+
+  ul.menu li {
+    margin-top: 15px;
+  }
 }
