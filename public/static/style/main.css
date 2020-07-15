@@ -1,9 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'K2D', sans-serif;
+  font-family: "K2D", sans-serif;
 }
 /* ------------------------------------ Start header  ------------------------------------*/
 .container {
@@ -155,8 +154,8 @@ ul.menu li a:hover {
   color: white;
   text-align: center;
 } */
-.content-heading{
-    margin-bottom: 50px;
+.content-heading {
+  margin-bottom: 50px;
 }
 /* ------------------------------------ End Footer  ------------------------------------*/
 @media screen and (max-width: 414px) {
