@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react'
+
 
 const category = () => {
-    return(
-        <div>
-            category
-        </div>
-    )
-}
-export default category
+  return <div>category branch master</div>;
+};
+export default category;
+

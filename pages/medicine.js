@@ -398,6 +398,7 @@ const medicine = () => {
             <h1>คำศัพท์ภาษาจีน หมวดยา</h1>
             <MDBDataTable striped bordered small data={data} />
           </div>
+          
         </div>
       </section>
       {/*------------------------------------ End Section ------------------------------------*/}
