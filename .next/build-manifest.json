@@ -1,24 +1,74 @@
 {
-  "devFiles": [
-    "static/runtime/react-refresh.js",
-    "static/development/dll/dll_f9de5cbc314a1e41f91e.js",
-    "static/development/dll/dll_f9de5cbc314a1e41f91e.js.map"
-  ],
+  "devFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/F0PEbFi6NQRDOcgD32z6K/_buildManifest.js",
+    "static/F0PEbFi6NQRDOcgD32z6K/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/css/styles.08ed293d.chunk.css",
+      "static/chunks/styles.5a82708047b3f8eaba4b.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/chunks/7d578b601425b2f7ba07c3659b88f6b8119d712f.36a881b4253e934d1e53.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js"
+      "static/runtime/polyfills-2f74f7d9820760171318.js"
+    ],
+    "/category": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/contentservice": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/conversations": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/disease": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/footer": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/header": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/css/styles.08ed293d.chunk.css",
+      "static/chunks/styles.5a82708047b3f8eaba4b.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/css/styles.08ed293d.chunk.css",
+      "static/chunks/styles.5a82708047b3f8eaba4b.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
+    ],
+    "/medicine": [
+      "static/runtime/webpack-83bd83ab777f80a6c75c.js",
+      "static/chunks/framework.c6faae2799416a6da8e8.js",
+      "static/runtime/main-72ca6f31607bdd69bd30.js"
     ]
   }
 }
