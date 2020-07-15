@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap"
             rel="stylesheet"
           ></link>
-          {this.props.styleTags}
+          <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
         </Head>
         <body>
           <Main />
