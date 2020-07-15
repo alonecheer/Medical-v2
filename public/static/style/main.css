@@ -359,4 +359,71 @@ ul.menu li a:hover {
     margin: 20px 0;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .content-service {
+    width: 100%;
+    height: auto;
+    margin: 25% auto;
+  }
+
+  .content-service-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
+  }
+
+  .content-service-item {
+    border: 1px solid #efefef;
+    padding: 20px 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .content-service-item .fa {
+    font-size: 7rem;
+    color: #333;
+  }
+
+  .content-service-item h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 20px 0;
+  }
+
+  .content-service-item p {
+    font-size: 20px;
+    color: #979797;
+    margin: 20px 0;
+  }
+  .content-service-item:nth-child(3) {
+    margin-bottom: 25%;
+  }
+  /*------------ service :hover ------------*/
+
+  .content-service-item:hover {
+    border: 1px solid #bad7ff;
+    padding: 20px 20px;
+    transition: 0.3s ease-in-out;
+    background-color: #8bb4ea;
+  }
+
+  .content-service-item:hover .fa {
+    font-size: 7rem;
+    color: #333;
+  }
+
+  .content-service-item:hover h2 {
+    font-size: 32px;
+    color: white;
+    margin: 20px 0;
+  }
+
+  .content-service-item:hover p {
+    font-size: 20px;
+    color: white;
+    margin: 20px 0;
+  }
+}
 /* ------------------------------------ End Content  ------------------------------------*/
