@@ -7,7 +7,7 @@ const Contentservice = () => {
         <div className="content-service">
           <div className="content-service-grid">
             <div className="content-service-item">
-              <a href="#">
+              <a href="/disease">
                 <div className="link">
                   <i className="fa fa-share-alt-square" aria-hidden="true"></i>
                   <h2>疾病</h2>
@@ -16,7 +16,7 @@ const Contentservice = () => {
               </a>
             </div>
             <div className="content-service-item">
-              <a href="#">
+              <a href="/medicine">
                 <div className="link">
                   <i className="fa fa-medkit" aria-hidden="true"></i>
                   <h2>药品</h2>
@@ -25,7 +25,7 @@ const Contentservice = () => {
               </a>
             </div>
             <div className="content-service-item">
-              <a href="#">
+              <a href="/conversations">
                 <div className="link">
                   <i className="fa fa-bullhorn" aria-hidden="true"></i>
                   <h2>药品</h2>
