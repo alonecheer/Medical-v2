@@ -1,13 +1,14 @@
-import React from 'react'
-import '../public/static/style/main.css'
+import React from "react";
+
 const Footer = () => {
-    return(
-        <div>
- <footer>
+  return (
+    <div>
+      <title>Footer</title>
+      <footer>
         <div className="copyright">
           <div className="container">
-            <div className="copyright-grid">
-              <div className="copytext">
+            <div className="copy-grid">
+            <div className="copytext">
                 <p>Copyright © 2020 Chatchaya - All Rights Reserved</p>
               </div>
               <div className="creadit">
@@ -17,7 +18,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-        </div>
-    )
-}
+    </div>
+  );
+};
+
 export default Footer;
