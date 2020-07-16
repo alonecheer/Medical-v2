@@ -96,6 +96,7 @@ a {
 }
 .name-web a {
   color: inherit;
+  text-decoration: none;
 }
 /* ------------------------------------ End header  ------------------------------------*/
 
