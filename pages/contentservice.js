@@ -28,8 +28,8 @@ const Contentservice = () => {
               <a href="/conversations">
                 <div className="link">
                   <i className="fa fa-bullhorn" aria-hidden="true"></i>
-                  <h2>药品</h2>
-                  <p>หมวดยา</p>
+                  <h2>Conversation</h2>
+                  <p>ประโยค</p>
                 </div>
               </a>
             </div>

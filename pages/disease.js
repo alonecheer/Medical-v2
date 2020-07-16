@@ -634,6 +634,9 @@ const disease = () => {
       <title>Disease</title>
       <Header />
       <div className="container">
+        <div className="title-category">
+          <h2>疾病 หมวดโรค</h2>
+        </div>
         <MDBDataTable striped bordered small data={data} />
       </div>
       <Footer />
