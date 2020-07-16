@@ -94,7 +94,9 @@ ul.menu li a:hover {
 a {
   text-decoration: none;
 }
-
+.name-web a {
+  color: inherit;
+}
 /* ------------------------------------ End header  ------------------------------------*/
 
 @media screen and (max-width: 375px) {
