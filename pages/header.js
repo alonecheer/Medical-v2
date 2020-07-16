@@ -7,8 +7,12 @@ const Header = () => {
       <div className="container">
         <div className="nav-gid">
           <div className="name-web">
-            <h1>Dictionary</h1>
-            <span>Medical terminology</span>
+            <a href="/">
+              <div className="link">
+                <h1>Dictionary</h1>
+                <span>Medical terminology</span>
+              </div>
+            </a>
           </div>
           <div className="fr">
             <ul className="menu">
@@ -17,8 +21,8 @@ const Header = () => {
                   <a href="#">Category</a>
                 </li>
                 <div className="dropdown-content">
-                  <a href="/disease">疾病 หมวดโรค</a>
-                  <a href="/medicine">药品 หมวดยา</a>
+                  <a href="/disease">疾病 โรค</a>
+                  <a href="/medicine">药品 ยา</a>
                 </div>
               </div>
               <li>
