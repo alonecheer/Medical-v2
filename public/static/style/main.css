@@ -207,6 +207,7 @@ a {
   position: fixed;
   left: 0;
   bottom: 0;
+  margin-top: 50px;
 }
 
 .copy-grid {
@@ -473,3 +474,59 @@ a {
   font-size: 2rem;
   text-align: center;
 }
+
+/* ------------------------------------ Start page Conversations ------------------------------------ */
+
+.title-conversation h2 {
+  margin-top: 20px;
+}
+
+.title-conversation p {
+  font-size: 20px;
+  border-bottom: 2px solid #01273c;
+}
+
+.conversation li {
+  margin-left: 20px;
+}
+
+.vocabulary {
+  color: red;
+}
+
+.vocabulary-dt {
+  margin-left: 10px;
+}
+
+.conversation {
+  margin-bottom: 20px;
+}
+
+.conversation p {
+  font-size: 25px;
+}
+
+.conversation-last li {
+  margin-left: 20px;
+}
+
+.conversation-last {
+  margin-bottom: 5rem;
+}
+.conversation-last p {
+  font-size: 25px;
+}
+/*  Responsive Conversation */
+@media screen and (max-width: 414px) {
+  .conversation-last {
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .conversation-last {
+    margin-bottom: 10rem;
+  }
+}
+
+/*  end Responsive Conversation */
