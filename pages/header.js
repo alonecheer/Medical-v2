@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
               </div>
               <li>
-                <a href="#">Conversations</a>
+                <a href="/conversations">Conversations</a>
               </li>
             </ul>
           </div>
