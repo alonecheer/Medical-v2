@@ -250,12 +250,12 @@ a {
 .content-service {
   width: 100%;
   height: auto;
-  margin: 25% auto;
+  /* margin: 25% auto; */
 }
 
 .content-service-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   text-align: center;
   grid-gap: 1rem;
 }
@@ -263,8 +263,79 @@ a {
 .content-service-item {
   border: 1px solid #efefef;
   padding: 20px 20px;
-  background-color: white;
   cursor: pointer;
+  max-height: 300px;
+}
+
+.ref {
+  text-align: center;
+  margin: 5% 25% 5% 25%;
+}
+
+/* คำศัพ dfefdd 
+
+  ประโยค e3c5f4
+
+  บทสนทนา fad4ae
+*/
+
+.content-service-item:nth-child(1) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(2) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(3) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(4) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(5) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(6) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(7) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(8) {
+  background-color: rgba(218, 239, 220, 0.4);
+}
+.content-service-item:nth-child(9) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(10) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(11) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(12) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(13) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(14) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(15) {
+  background-color: rgba(236, 196, 249, 0.4);
+}
+.content-service-item:nth-child(16) {
+  background-color: rgba(251, 211, 175, 0.4);
+}
+.content-service-item:nth-child(17) {
+  background-color: rgba(251, 211, 175, 0.4);
+}
+.content-service-item:nth-child(18) {
+  background-color: rgba(251, 211, 175, 0.4);
+}
+.content-service-item:nth-child(19) {
+  background-color: rgba(251, 211, 175, 0.4);
+  margin-bottom: 100%;
 }
 
 .content-service-item .fa {

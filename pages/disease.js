@@ -614,7 +614,7 @@ const disease = () => {
       <Header />
       <div className="container">
         <div className="title-category">
-          <h2>疾病 หมวดโรค</h2>
+          <h2>คำศัพท์ภาษาจีนเกี่ยวกับโรคต่างๆ</h2>
         </div>
         <MDBDataTable striped bordered small data={data} />
       </div>
