@@ -264,7 +264,7 @@ a {
   border: 1px solid #efefef;
   padding: 20px 20px;
   cursor: pointer;
-  max-height: 300px;
+  height: 300px;
 }
 
 .ref {
@@ -336,6 +336,11 @@ a {
 .content-service-item:nth-child(19) {
   background-color: rgba(251, 211, 175, 0.4);
   margin-bottom: 100%;
+}
+
+.content-service-item img {
+  font-size: 7rem;
+  color: #333;
 }
 
 .content-service-item .fa {
