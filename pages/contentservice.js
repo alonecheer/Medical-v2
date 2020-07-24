@@ -33,7 +33,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 3 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 3.png" />
                   {/* <h2>疾病</h2> */}
@@ -43,7 +43,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 4 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 4.png" />
                   {/* <h2>疾病</h2> */}
@@ -53,7 +53,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 5 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 5.png" />
                   {/* <h2>疾病</h2> */}
@@ -63,7 +63,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 6 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 6.png" />
                   {/* <h2>疾病</h2> */}
@@ -73,7 +73,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 7 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 7.png" />
                   {/* <h2>疾病</h2> */}
@@ -83,7 +83,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 8 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 8.png" />
                   {/* <h2>疾病</h2> */}
@@ -93,7 +93,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 9 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 9.png" />
                   {/* <h2>疾病</h2> */}
@@ -103,7 +103,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 10 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 10.png" />
                   {/* <h2>疾病</h2> */}
@@ -113,7 +113,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 11 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 11.png" />
                   {/* <h2>疾病</h2> */}
@@ -123,7 +123,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 12 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 12.png" />
                   {/* <h2>疾病</h2> */}
@@ -133,7 +133,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 13 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 13.png" />
                   {/* <h2>疾病</h2> */}
@@ -143,7 +143,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 14 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 14.png" />
                   {/* <h2>疾病</h2> */}
@@ -153,7 +153,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 15 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 15.png" />
                   {/* <h2>疾病</h2> */}
@@ -163,7 +163,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 16 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 16.png" />
                   {/* <h2>疾病</h2> */}
@@ -173,7 +173,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 17 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 17.png" />
                   {/* <h2>疾病</h2> */}
@@ -183,7 +183,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 18 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 18.png" />
                   {/* <h2>疾病</h2> */}
@@ -193,7 +193,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 19 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="/disease">
+              <a href="#">
                 <div className="link">
                   <img src="/static/images/Layer 19.png" />
                   {/* <h2>疾病</h2> */}
