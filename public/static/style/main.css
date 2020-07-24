@@ -19,7 +19,7 @@ header {
 
 .nav-gid {
   display: grid;
-  grid-template-columns: 225px 1fr;
+  grid-template-columns: 1fr;
 }
 
 .name-web {
@@ -28,8 +28,8 @@ header {
 }
 
 .name-web h1 {
-  font-size: 20px;
-  padding-top: 30px;
+  font-size: 30px;
+  padding-top: 40px;
 }
 
 .name-web span {

@@ -9,18 +9,18 @@ const Header = () => {
           <div className="name-web">
             <a href="/">
               <div className="link">
-                <h1>Dictionary</h1>
-                <span>Medical terminology</span>
+                <h1>Dictionary Medical terminology</h1>
               </div>
             </a>
           </div>
-          <div className="fr">
+          {/* <div className="fr">
+
             <ul className="menu">
               <div className="dropdown">
                 <li>
                   <a href="/">Category</a>
                 </li>
-                {/* <div className="dropdown-content">
+                <div className="dropdown-content">
                   <a href="/disease">คำศัพท์ภาษาจีนเกี่ยวกับโรคต่างๆ</a>
                   <a href="/medicine">คำศัพท์ภาษาจีนเกี่ยวกับยา</a>
                   <a href="/#">ศัพท์ภาษาจีนเกี่ยวกับการแสดงอาการต่างๆ</a>
@@ -48,13 +48,13 @@ const Header = () => {
                   <a href="/#">ตัวอย่างบทสนาเมื่อทำการตรวจเลือดและเจาะเลือด</a>
                   <a href="/#">ตัวอย่างบทสนาเมื่อทำการเจาะเลือด</a>
                   <a href="/#">ตัวอย่างบทสนทนาในการรายงานผลตรวจโรค</a>
-                </div> */}
+                </div>
               </div>
               <li>
                 <a href="/conversations">Conversations</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
