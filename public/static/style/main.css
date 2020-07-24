@@ -335,7 +335,7 @@ a {
 }
 .content-service-item:nth-child(19) {
   background-color: rgba(251, 211, 175, 0.4);
-  margin-bottom: 100%;
+  margin-bottom: 100px;
 }
 
 .content-service-item img {
