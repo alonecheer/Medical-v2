@@ -156,7 +156,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 14 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="#">
+              <a href="/takemd">
                 <div className="link">
                   <img src="/static/images/Layer 14.png" />
                   {/* <h2>疾病</h2> */}
@@ -166,7 +166,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 15 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="#">
+              <a href="/visit">
                 <div className="link">
                   <img src="/static/images/Layer 15.png" />
                   {/* <h2>疾病</h2> */}

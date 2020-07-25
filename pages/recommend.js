@@ -82,21 +82,6 @@ const recommend = () => {
             <li>Wǒ duì zhè zhǒng yào guòmǐn. </li>
             <li>ผมแพ้ยาชนิดนี้ครับ</li>
           </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
         </div>
       </div>
       <Footer />
