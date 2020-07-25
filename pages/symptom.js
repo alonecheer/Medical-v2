@@ -221,46 +221,6 @@ const symptom = () => {
         pinin: " Jiǎo tòng  ",
         th: " จุกเสียด ",
       },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
     ],
   };
   return (
