@@ -231,7 +231,13 @@ const symptom = () => {
         <div className="title-category">
           <h2>ศัพท์ภาษาจีนเกี่ยวกับการแสดงอาการต่างๆ</h2>
         </div>
-        <MDBDataTable striped bordered small data={data} />
+        <MDBDataTable
+          striped
+          bordered
+          small
+          data={data}
+          displayEntries={false}
+        />
       </div>
       <Footer />
     </div>

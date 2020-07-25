@@ -111,7 +111,13 @@ const department = () => {
         <div className="title-category">
           <h2>คำศัพท์ภาษาจีนเกี่ยวกับบุคลากรทางการแพทย์ในแผนกต่างๆ</h2>
         </div>
-        <MDBDataTable striped bordered small data={data} />
+        <MDBDataTable
+          striped
+          bordered
+          small
+          data={data}
+          displayEntries={false}
+        />
       </div>
       <Footer />
     </div>

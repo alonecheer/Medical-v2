@@ -146,7 +146,13 @@ const checkandtreat = () => {
         <div className="title-category">
           <h2>คำศัพท์ที่ใช้ในการทำการตรวจและรักษา</h2>
         </div>
-        <MDBDataTable striped bordered small data={data} />
+        <MDBDataTable
+          striped
+          bordered
+          small
+          data={data}
+          displayEntries={false}
+        />
       </div>
       <Footer />
     </div>

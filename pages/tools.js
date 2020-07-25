@@ -91,7 +91,13 @@ const tools = () => {
         <div className="title-category">
           <h2>ศัพท์ภาษาจีนเกี่ยวกับเครื่องมือทางการแพทย์</h2>
         </div>
-        <MDBDataTable striped bordered small data={data} />
+        <MDBDataTable
+          striped
+          bordered
+          small
+          data={data}
+          displayEntries={false}
+        />
       </div>
       <Footer />
     </div>
