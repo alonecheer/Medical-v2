@@ -145,11 +145,14 @@ a {
 }
 
 @media screen and (max-width: 414px) {
-  .row:nth-child(3) {
-    margin-bottom: 30%;
-  }
-  div.dataTables_wrapper div.dataTables_paginate {
-    margin-bottom: 10%;
+  footer .copyright {
+    width: 100%;
+    height: 100;
+    background-color: #01273c;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
   }
   .pagination {
     display: grid;
@@ -350,7 +353,6 @@ a {
 }
 .content-service-item:nth-child(19) {
   background-color: rgba(251, 211, 175, 0.4);
-  margin-bottom: 100px;
 }
 
 .content-service-item img {
@@ -406,18 +408,20 @@ a {
 /*------------ end service :hover ------------*/
 
 @media screen and (max-width: 375px) {
+  footer .copyright {
+    width: 100%;
+    height: 100;
+    background-color: #01273c;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+  }
   .content-service-grid-ref {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     margin: 20px 0;
-  }
-
-  .row:nth-child(3) {
-    margin-bottom: 30%;
-  }
-  div.dataTables_wrapper div.dataTables_paginate {
-    margin-bottom: 10%;
   }
   .pagination {
     display: grid;
@@ -598,9 +602,6 @@ a {
   margin-left: 10px;
 }
 
-.conversation {
-  margin-bottom: 20px;
-}
 
 .conversation p {
   font-size: 25px;
@@ -621,11 +622,17 @@ a {
   .conversation-last {
     margin-bottom: 10rem;
   }
+  ul:last-child() {
+    margin-bottom: 50%;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .conversation-last {
     margin-bottom: 10rem;
+  }
+  .conversation ul:last-child() {
+    margin-bottom: 50%;
   }
 }
 
