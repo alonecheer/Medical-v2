@@ -86,26 +86,6 @@ const department2 = () => {
         pinin: " Pífūkē  ",
         th: " แผนกโรคผิวหนัง ",
       },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
     ],
   };
   return (
