@@ -81,36 +81,6 @@ const tools = () => {
         pinin: " Xīndiàntú  ",
         th: " ภาพคลื่นไฟฟ้าหัวใจ ",
       },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
     ],
   };
   return (

@@ -101,21 +101,6 @@ const department = () => {
         pinin: " Bíhóu yīshēng ",
         th: " แพทย์ผู้เชี่ยวชาญด้านหู คอ จมูก ",
       },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
-      {
-        cn: " xxxx ",
-        pinin: " xxxx ",
-        th: " xxxx ",
-      },
     ],
   };
   return (
