@@ -126,7 +126,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 11 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="#">
+              <a href="/diagnose">
                 <div className="link">
                   <img src="/static/images/Layer 11.png" />
                   {/* <h2>疾病</h2> */}
