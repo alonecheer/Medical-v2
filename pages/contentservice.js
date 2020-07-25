@@ -176,7 +176,7 @@ const Contentservice = () => {
             </div>
             {/* ----------------------------------------------- 16 ----------------------------------------------- */}
             <div className="content-service-item">
-              <a href="#">
+              <a href="/dgpatient">
                 <div className="link">
                   <img src="/static/images/Layer 16.png" />
                   {/* <h2>疾病</h2> */}
@@ -190,7 +190,7 @@ const Contentservice = () => {
                 <div className="link">
                   <img src="/static/images/Layer 17.png" />
                   {/* <h2>疾病</h2> */}
-                  <p>ตัวอย่างบทสนาเมื่อทำการตรวจเลือดและเจาะเลือด</p>
+                  <p>ตัวอย่างบทสนทนาเมื่อทำการตรวจเลือดและเจาะเลือด</p>
                 </div>
               </a>
             </div>
@@ -200,7 +200,7 @@ const Contentservice = () => {
                 <div className="link">
                   <img src="/static/images/Layer 18.png" />
                   {/* <h2>疾病</h2> */}
-                  <p>ตัวอย่างบทสนาเมื่อทำการเจาะเลือด</p>
+                  <p>ตัวอย่างบทสนทนาเมื่อทำการเจาะเลือด</p>
                 </div>
               </a>
             </div>
