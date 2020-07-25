@@ -67,31 +67,6 @@ const diagnose = () => {
             <li>Nín de qíngkuàng hěn yánzhòng, yào kāidāo. </li>
             <li>อาการของคุณหนักมากต้องผ่าตัดครับ</li>
           </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
-          <ul>
-            <li>xxx</li>
-            <li>xxx</li>
-            <li>xxx</li>
-          </ul>
         </div>
       </div>
       <Footer />
