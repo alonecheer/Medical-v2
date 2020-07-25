@@ -207,7 +207,7 @@ a {
   width: 100%;
   height: 100;
   background-color: #01273c;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   margin-top: 50px;
@@ -602,7 +602,6 @@ a {
   margin-left: 10px;
 }
 
-
 .conversation p {
   font-size: 25px;
 }
@@ -647,4 +646,19 @@ a {
 
 .detail-grid-item p {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
+}
+  .content-service-item {
+    border: 1px solid #efefef;
+    padding: 20px 20px;
+    cursor: pointer;
+    height: 350px;
+  }
 }
