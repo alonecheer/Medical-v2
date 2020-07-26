@@ -207,7 +207,7 @@ a {
   width: 100%;
   height: 100;
   background-color: #01273c;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   margin-top: 50px;
@@ -240,6 +240,53 @@ a {
 }
 
 .creadit p {
+  color: white;
+  margin: 10;
+}
+
+/* ------------------------------------ End Footer  ------------------------------------*/
+/* ------------------------------------ Start Footer 2 ------------------------------------*/
+.container2 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.copyright2 {
+  width: 100%;
+  height: 100;
+  background-color: #01273c;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.copy-grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  padding: 20px;
+}
+
+.copy-grid2 p {
+  margin: 0;
+}
+
+.copytext2 {
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.creadit2 {
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.copytext2 p {
+  color: white;
+  margin: 10;
+}
+
+.creadit2 p {
   color: white;
   margin: 10;
 }
@@ -409,6 +456,15 @@ a {
 
 @media screen and (max-width: 375px) {
   footer .copyright {
+    width: 100%;
+    height: 100;
+    background-color: #01273c;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  footer .copyright2 {
     width: 100%;
     height: 100;
     background-color: #01273c;
@@ -660,7 +716,7 @@ a {
   }
   .content-service-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
     grid-gap: 1rem;
   }
