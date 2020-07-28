@@ -54,7 +54,7 @@ const dgpatient = () => {
             </div>
 
             <div className="detail-grid-item">
-              <p>Dàifū </p>
+              <p>Dàifu </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
@@ -116,7 +116,7 @@ const dgpatient = () => {
             </div>
 
             <div className="detail-grid-item">
-              <p>Dàifū </p>
+              <p>Dàifu </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
@@ -178,7 +178,7 @@ const dgpatient = () => {
             </div>
 
             <div className="detail-grid-item">
-              <p>Dàifū </p>
+              <p>Dàifu </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
@@ -238,7 +238,7 @@ const dgpatient = () => {
             </div>
 
             <div className="detail-grid-item">
-              <p>Dàifū</p>
+              <p>Dàifu</p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
@@ -269,7 +269,7 @@ const dgpatient = () => {
             </div>
 
             <div className="detail-grid-item">
-              <p>Dàifū </p>
+              <p>Dàifu </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>

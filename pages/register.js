@@ -35,7 +35,8 @@ const register = () => {
             <li>
               请在这张表上填上你的姓名、年龄和地址。
               <br />
-              Qǐng zài zhè zhāng biǎo shàng tián shàng ní de xìngmíng, niánlíng hé dìzhǐ.
+              Qǐng zài zhè zhāng biǎo shàng tián shàng ní de xìngmíng, niánlíng
+              hé dìzhǐ.
               <br />
               กรุณากรอกชื่อ อายุ และที่อยู่ ที่แบบฟอร์มนี้ด้วยค่ะ
             </li>
@@ -54,7 +55,7 @@ const register = () => {
             <li>
               请坐一会，等叫你的名字
               <br />
-              Qǐng zuò yí huìr, děng jiào nǐ de míng zi.
+              Qǐng zuò yí huìr, děng jiào nǐ de míngzi.
               <br />
               กรุณานั่งรอเรียกชื่อสักครู่นะคะ
             </li>
