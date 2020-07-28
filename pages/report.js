@@ -13,49 +13,80 @@ const report = () => {
         </div>
         <div className="conversation">
           <ul>
-            <li>我的头很痛。</li>
-            <li>Wǒ de tóu hěn tòng. </li>
-            <li>ผมปวดหัวมากเลยครับ </li>
+            <li>
+              我的头很痛。 <br />
+              Wǒ de tóu hěn tòng.
+              <br />
+              ผมปวดหัวมากเลยครับ
+            </li>
           </ul>
           <ul>
-            <li>他拉肚子了。 </li>
-            <li>Tā lādùzi le. </li>
-            <li>เขาท้องเสียครับ </li>
+            <li>
+              他拉肚子了。
+              <br />
+              Tā lādùzi le.
+              <br />
+              เขาท้องเสียครับ
+            </li>
           </ul>
           <ul>
-            <li>我发烧了。 </li>
-            <li>Wǒ fāshāo le. </li>
-            <li>ผมมีไข้ครับ </li>
+            <li>
+              我发烧了。 <br />
+              Wǒ fāshāo le.
+              <br />
+              ผมมีไข้ครับ
+            </li>
           </ul>
           <ul>
-            <li> 我的头很晕。 </li>
-            <li>Wǒ de tóu hěn yūn. </li>
-            <li>ฉันเวียนหัวมากค่ะ </li>
+            <li>
+              {" "}
+              我的头很晕。 <br />
+              Wǒ de tóu hěn yūn.
+              <br />
+              ฉันเวียนหัวมากค่ะ
+            </li>
           </ul>
           <ul>
-            <li>我这样很多天了。 </li>
-            <li>Wǒ zhèyàng hěnduō tiānle. </li>
-            <li>ผมเป็นแบบนี้มาหลายวันแล้ว </li>
+            <li>
+              我这样很多天了。
+              <br />
+              Wǒ zhèyàng hěnduō tiānle. <br />
+              ผมเป็นแบบนี้มาหลายวันแล้ว
+            </li>
           </ul>
           <ul>
-            <li>他晕过去了。 </li>
-            <li>Tā yūn guòqùle. </li>
-            <li>เขาเป็นลมแล้ว </li>
+            <li>
+              他晕过去了。
+              <br />
+              Tā yūn guòqùle. <br />
+              เขาเป็นลมแล้ว
+            </li>
           </ul>
           <ul>
-            <li>我看不见了。 </li>
-            <li>Wǒ kàn bùjiànle. </li>
-            <li>ฉันมองไม่เห็นแล้ว </li>
+            <li>
+              我看不见了。
+              <br />
+              Wǒ kàn bùjiànle.
+              <br />
+              ฉันมองไม่เห็นแล้ว
+            </li>
           </ul>
           <ul>
-            <li>我被蛇咬了。 </li>
-            <li>Wǒ bèi shé yǎole. </li>
-            <li>ผมถูกงูกัดครับ </li>
+            <li>
+              我被蛇咬了。 <br />
+              Wǒ bèi shé yǎole.
+              <br />
+              ผมถูกงูกัดครับ
+            </li>
           </ul>
           <ul>
-            <li>我觉得全身都疼。</li>
-            <li> Wǒ juédé quánshēn dōu téng. </li>
-            <li>ฉันรู้สึกปวดไปทั้งตัว</li>
+            <li>
+              我觉得全身都疼。
+              <br />
+              Wǒ juédé quánshēn dōu téng.
+              <br />
+              ฉันรู้สึกปวดไปทั้งตัว
+            </li>
           </ul>
         </div>
       </div>
