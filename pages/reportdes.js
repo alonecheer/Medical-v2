@@ -2,14 +2,14 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 
-const bloodtest = () => {
+const reportdes = () => {
   return (
     <div>
-      <title>Blood test</title>
+      <title>Report</title>
       <Header />
       <div className="container">
         <div className="title-category">
-          <h2>ตัวอย่างบทสนทนาเมื่อทำการตรวจเลือดและเจาะเลือด</h2>
+          <h2>ตัวอย่างบทสนทนาในการรายงานผลตรวจโรค</h2>
         </div>
         <div className="conversation">
           <div className="detail-grid">
@@ -21,142 +21,17 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>你好！我今天是来验血的。 </p>
+              <p>你好！请问，我的验血报告出来了吗？</p>
             </div>
 
             <div className="detail-grid-item">
-              <p>Wángfēn </p>
+              <p>Wángfēn</p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p> nǐhǎo! wǒ jīntiān shì lái yànxuè de. </p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>หวางเฟิน</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>สวัสดีค่ะ วันนี้ฉันมาตรวจเลือด?</p>
-            </div>
-            {/* -------------------------------- ###### -------------------------------- */}
-            <div className="detail-grid-item">
-              <p>护士</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>好的，你到那边抽血吧。 </p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>Hùshì  </p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>  hǎode, nǐ dào nàbiān chōuxuè ba. </p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>พยาบาล    </p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>โอเคค่ะ คุณไปเจาะเลือดตรงนั้นนะคะ</p>
-            </div>
-            {/* -------------------------------- ###### -------------------------------- */}
-            <div className="detail-grid-item">
-              <p>王芬</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>请问，我需要验一些什么项目。</p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>Wángfēn </p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>qǐngwèn, wǒ xūyào yàn yīxiē shénme xiàngmù.</p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>หวางเฟิน</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>ขอถามหน่อยค่ะ ฉันต้องตรวจรายการอะไรบ้างคะ?</p>
-            </div>
-            {/* -------------------------------- ###### -------------------------------- */}
-            <div className="detail-grid-item">
-              <p>护士</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>你先验一下血型，然后，检验一下有没有贫血? 			最后，验一下是不是怀孕了？ </p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>Hùshì</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>nǐ xiān yàn yīxià xuèxíng, ránhòu, jiǎnyàn yīxià 
- 			yǒu méiyǒu pínxuè? Zuìhòu, yàn yīxià shì bùshì 
- 			huáiyùn le?
-</p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>พยาบาล    </p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>คุณต้องตรวจกรุ๊ปเลือดก่อน หลังจากนั้น ตรวจว่ามีโรคโลหิตจางหรือปล่าว 
- 			สุดท้าย ตรวจว่าคุณตั้งครรภ์หรือไม่ค่ะ
-</p>
-            </div>
-            {/* -------------------------------- ###### -------------------------------- */}
-            <div className="detail-grid-item">
-              <p>王芬</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>好的，我明白了。</p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>Wángfēn </p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>hǎode, wǒ míngbái le.</p>
+              <p>nǐhǎo! qǐngwèn, wǒ de yànxuè bàogào chūlái le ma?</p>
             </div>
 
             <div className="detail-grid-item">
@@ -166,39 +41,146 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>โอเคค่ะ ฉันเข้าใจแล้วค่ะ</p>
+              <p>
+                สวัสดีค่ะ ขอถามหน่อยว่า รายงานผลตรวจเลือดของฉันออกมาแล้วหรือ
+                ยังคะ ?
+              </p>
             </div>
             {/* -------------------------------- ###### -------------------------------- */}
             <div className="detail-grid-item">
-              <p>xxxx</p>
+              <p>护士</p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>xxxx</p>
+              <p>
+                出来了，你的血型是AB 型。你没有贫血，
+                太好了。不过，你现在还没怀孕。
+              </p>
             </div>
 
             <div className="detail-grid-item">
-              <p>xxxx</p>
+              <p>Hùshì </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>xxxx</p>
+              <p>
+                chūláile, nǐ de xuèxíng shì AB xíng. Nǐ méiyǒu pínxuè, tài
+                hǎole. Bùguò, nǐ xiànzài hái méi huáiyùn.
+              </p>
             </div>
 
             <div className="detail-grid-item">
-              <p>xxxx</p>
+              <p>พยาบาล </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>xxxx</p>
+              <p>
+                ออกมาแล้วค่ะ กรุ๊ปเลือดของคุณเป็น AB นะคะ คุณไม่เป็นโรคโลหิต จาง
+                ดีมากเลยค่ะ เพียงแต่คุณยังไม่ตั้งครรภ์ตอนนี้นะคะ
+              </p>
+            </div>
+            {/* -------------------------------- ###### -------------------------------- */}
+            <div className="detail-grid-item">
+              <p>王芬</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>谢谢你告诉我检验结果，我过两个月再来检 查吧。</p>
             </div>
 
+            <div className="detail-grid-item">
+              <p>Wángfēn</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>
+                xièxiè nǐ gàosù wǒ jiǎnyàn jiéguǒ, wǒguò liǎng gè yuè zàilái
+                jiǎn chá ba.
+              </p>
+            </div>
+
+            <div className="detail-grid-item">
+              <p>หวางเฟิน </p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>
+                ขอบคุณนะคะ ที่บอกผลตรวจให้ฉัน ดิฉันจะมาตรวจอีกทีในอีก 2 เดือน
+                หน้านะคะ
+              </p>
+            </div>
+            {/* -------------------------------- ###### -------------------------------- */}
+            <div className="detail-grid-item">
+              <p>护士</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>可以， 下次见。</p>
+            </div>
+
+            <div className="detail-grid-item">
+              <p>Hùshì </p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>kěyǐ, xià cì jiàn</p>
+            </div>
+
+            <div className="detail-grid-item">
+              <p>พยาบาล </p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>ได้ค่ะ แล้วเจอกันครั้งหน้านะคะ</p>
+            </div>
+            {/* -------------------------------- ###### -------------------------------- */}
+            <div className="detail-grid-item">
+              <p>王芬</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p> 再见。</p>
+            </div>
+
+            <div className="detail-grid-item">
+              <p>Wángfēn </p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>zàijiàn.</p>
+            </div>
+
+            <div className="detail-grid-item">
+              <p>หวางเฟิน </p>
+            </div>
+            <div className="detail-grid-item">
+              <p>:</p>
+            </div>
+            <div className="detail-grid-item">
+              <p>ลาก่อนค่ะ</p>
+            </div>
           </div>
         </div>
       </div>
@@ -207,4 +189,4 @@ const bloodtest = () => {
   );
 };
 
-export default bloodtest;
+export default reportdes;
