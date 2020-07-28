@@ -55,17 +55,17 @@ const bloodtest = () => {
             </div>
 
             <div className="detail-grid-item">
-              <p>Hùshì  </p>
+              <p>Hùshì </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>  hǎode, nǐ dào nàbiān chōuxuè ba. </p>
+              <p> hǎode, nǐ dào nàbiān chōuxuè ba. </p>
             </div>
 
             <div className="detail-grid-item">
-              <p>พยาบาล    </p>
+              <p>พยาบาล </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
@@ -111,7 +111,10 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>你先验一下血型，然后，检验一下有没有贫血? 			最后，验一下是不是怀孕了？ </p>
+              <p>
+                你先验一下血型，然后，检验一下有没有贫血?
+                最后，验一下是不是怀孕了？{" "}
+              </p>
             </div>
 
             <div className="detail-grid-item">
@@ -121,22 +124,24 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>nǐ xiān yàn yīxià xuèxíng, ránhòu, jiǎnyàn yīxià 
- 			yǒu méiyǒu pínxuè? Zuìhòu, yàn yīxià shì bùshì 
- 			huáiyùn le?
-</p>
+              <p>
+                nǐ xiān yàn yīxià xuèxíng, ránhòu, jiǎnyàn yīxià yǒu méiyǒu
+                pínxuè? Zuìhòu, yàn yīxià shì bùshì huáiyùn le?
+              </p>
             </div>
 
             <div className="detail-grid-item">
-              <p>พยาบาล    </p>
+              <p>พยาบาล </p>
             </div>
             <div className="detail-grid-item">
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>คุณต้องตรวจกรุ๊ปเลือดก่อน หลังจากนั้น ตรวจว่ามีโรคโลหิตจางหรือปล่าว 
- 			สุดท้าย ตรวจว่าคุณตั้งครรภ์หรือไม่ค่ะ
-</p>
+              <p>
+                คุณต้องตรวจกรุ๊ปเลือดก่อน หลังจากนั้น
+                ตรวจว่ามีโรคโลหิตจางหรือปล่าว สุดท้าย
+                ตรวจว่าคุณตั้งครรภ์หรือไม่ค่ะ
+              </p>
             </div>
             {/* -------------------------------- ###### -------------------------------- */}
             <div className="detail-grid-item">
@@ -168,37 +173,6 @@ const bloodtest = () => {
             <div className="detail-grid-item">
               <p>โอเคค่ะ ฉันเข้าใจแล้วค่ะ</p>
             </div>
-            {/* -------------------------------- ###### -------------------------------- */}
-            <div className="detail-grid-item">
-              <p>xxxx</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>xxxx</p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>xxxx</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>xxxx</p>
-            </div>
-
-            <div className="detail-grid-item">
-              <p>xxxx</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>:</p>
-            </div>
-            <div className="detail-grid-item">
-              <p>xxxx</p>
-            </div>
-
           </div>
         </div>
       </div>
