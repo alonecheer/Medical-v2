@@ -712,7 +712,7 @@ a {
 
 .detail-grid {
   display: grid;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 120px 10px 1fr;
 }
 
 .detail-grid-item p {

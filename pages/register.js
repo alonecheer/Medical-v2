@@ -16,7 +16,7 @@ const register = () => {
             <li>
               请先在挂号处挂号。
               <br />
-              Qǐng xiān zài guà hào chù guà hào. <br />
+              Qǐng xiān zài guàhào chù guàhào. <br />
               กรุณาลงทะเบียนที่แผนกลงทะเบียนก่อนนะคะ
             </li>
           </ul>
@@ -25,7 +25,7 @@ const register = () => {
             <li>
               有病历卡吗？
               <br />
-              Yǒu bìng lì kǎ ma?
+              Yǒu bìnglìkǎ ma?
               <br />
               มีบัตรผู้ป่วยไหมคะ?
             </li>
@@ -35,8 +35,7 @@ const register = () => {
             <li>
               请在这张表上填上你的姓名、年龄和地址。
               <br />
-              Qǐng zài zhè zhāng biǎo shàng tián shàng ní de xìng míng, nián
-              líng hé dì zhǐ.
+              Qǐng zài zhè zhāng biǎo shàng tián shàng ní de xìngmíng, niánlíng hé dìzhǐ.
               <br />
               กรุณากรอกชื่อ อายุ และที่อยู่ ที่แบบฟอร์มนี้ด้วยค่ะ
             </li>
@@ -46,7 +45,7 @@ const register = () => {
             <li>
               你过敏什么些药吗？
               <br />
-              Nǐ guò mǐn shén me xiē yào ma?
+              Nǐ guò mǐn shénme xiē yào ma?
               <br />
               คุณแพ้ยาอะไรบ้างหรือเปล่า?
             </li>
