@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./header";
-import Footer2 from "./footer2";
+import Footer from "./footer";
 import { MDBDataTable } from "mdbreact";
 const department2 = () => {
   const data = {
@@ -104,7 +104,7 @@ const department2 = () => {
           displayEntries={false}
         />
       </div>
-      <Footer2 />
+      <Footer />
     </div>
   );
 };
