@@ -94,7 +94,6 @@ const room = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };

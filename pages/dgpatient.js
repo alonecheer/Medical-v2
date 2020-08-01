@@ -290,7 +290,6 @@ const dgpatient = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

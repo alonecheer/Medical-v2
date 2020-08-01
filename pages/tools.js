@@ -99,7 +99,7 @@ const tools = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
+      
     </div>
   );
 };

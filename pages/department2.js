@@ -104,7 +104,6 @@ const department2 = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };

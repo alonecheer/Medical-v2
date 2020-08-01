@@ -154,7 +154,6 @@ const checkandtreat = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };

@@ -624,7 +624,6 @@ const disease = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };

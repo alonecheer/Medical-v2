@@ -239,7 +239,6 @@ const symptom = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };

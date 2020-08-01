@@ -289,7 +289,6 @@ const medicine = () => {
           displayEntries={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };

@@ -309,10 +309,10 @@ a {
 }
 
 .content-service-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  text-align: center;
-  grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
 }
 
 .content-service-item {
