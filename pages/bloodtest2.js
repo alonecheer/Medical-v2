@@ -51,7 +51,7 @@ const bloodtest2 = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>是的， 我要检验一下血型，看看我有没有 贫血和是不是怀孕了？</p>
+              <p>是的， 我要检验一下血型，看看我有没有 贫血和是不是怀孕了。</p>
             </div>
 
             <div className="detail-grid-item">
@@ -63,7 +63,7 @@ const bloodtest2 = () => {
             <div className="detail-grid-item">
               <p>
                 shìde, wǒ yào jiǎnyàn yīxià xuèxíng, kànkàn wǒ yǒu méiyǒu pínxuè
-                hé shì bùshì huáiyùnle?
+                hé shì bùshì huáiyùnle。
               </p>
             </div>
 

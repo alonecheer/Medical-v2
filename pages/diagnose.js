@@ -67,7 +67,7 @@ const diagnose = () => {
           <ul>
             <li>
               {" "}
-              吃过药再好好休息就会好的
+              吃过药再好好休息就会好的。
               <br />
               Chīguò yào zài hǎohǎo xiūxí jiù huì hǎo de.
               <br />

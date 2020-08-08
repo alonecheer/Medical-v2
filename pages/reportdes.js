@@ -31,7 +31,7 @@ const reportdes = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>nǐhǎo! qǐngwèn, wǒ de yànxuè bàogào chūlái le ma?</p>
+              <p>nǐhǎo! qǐngwèn, wǒ de yànxuè bàogàochūlái le ma?</p>
             </div>
 
             <div className="detail-grid-item">

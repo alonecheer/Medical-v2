@@ -53,7 +53,7 @@ const register = () => {
           </ul>
           <ul>
             <li>
-              请坐一会，等叫你的名字
+              请坐一会，等叫你的名字。
               <br />
               Qǐng zuò yí huìr, děng jiào nǐ de míngzi.
               <br />

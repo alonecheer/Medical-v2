@@ -41,7 +41,7 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>สวัสดีค่ะ วันนี้ฉันมาตรวจเลือด?</p>
+              <p>สวัสดีค่ะ วันนี้ฉันมาตรวจเลือด</p>
             </div>
             {/* -------------------------------- ###### -------------------------------- */}
             <div className="detail-grid-item">
@@ -81,7 +81,7 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>请问，我需要验一些什么项目。</p>
+              <p>请问，我需要验一些什么项目?</p>
             </div>
 
             <div className="detail-grid-item">
@@ -91,7 +91,7 @@ const bloodtest = () => {
               <p>:</p>
             </div>
             <div className="detail-grid-item">
-              <p>qǐngwèn, wǒ xūyào yàn yīxiē shénme xiàngmù.</p>
+              <p>qǐngwèn, wǒ xūyào yàn yīxiē shénme xiàngmù?</p>
             </div>
 
             <div className="detail-grid-item">
@@ -140,7 +140,7 @@ const bloodtest = () => {
               <p>
                 คุณต้องตรวจกรุ๊ปเลือดก่อน หลังจากนั้น
                 ตรวจว่ามีโรคโลหิตจางหรือปล่าว สุดท้าย
-                ตรวจว่าคุณตั้งครรภ์หรือไม่ค่ะ
+                ตรวจว่าคุณตั้งครรภ์หรือไม่ค่ะ?
               </p>
             </div>
             {/* -------------------------------- ###### -------------------------------- */}
